@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:ExamenSegundoParcial"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <StackPanel Background="Beige">
+    <StackPanel >
         <TextBlock FontFamily="arial" FontSize="16" Margin="20,5,20,5">Número de Tarjeta</TextBlock>
         <TextBox Name="BoxNumT" Margin="20,5,20,5"></TextBox>
         <TextBlock FontFamily="arial" FontSize="16" Margin="20,5,20,5" >CVV:</TextBlock>

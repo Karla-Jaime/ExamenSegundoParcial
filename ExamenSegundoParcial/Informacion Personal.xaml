@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:ExamenSegundoParcial"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <StackPanel Background="Beige">
+    <StackPanel >
         <TextBlock FontFamily="arial" FontSize="16" Margin="20,5,20,5" >Nombre:</TextBlock>
         <TextBox Name="BoxN" Margin="20,5,20,5"></TextBox>
         <TextBlock FontFamily="arial" FontSize="16" Margin="20,5,20,5" >Apellido Paterno:</TextBlock>

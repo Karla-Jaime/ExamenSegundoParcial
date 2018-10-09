@@ -23,6 +23,6 @@
         <local:InformacionDePago x:Name="InfP" Visibility="Collapsed"></local:InformacionDePago>
         <StackPanel Name="PanelConfiguracion">
         </StackPanel>
-        <Button Name="siguiente" Click="siguiente_Click">Siguiente</Button>
+        <Button Name="siguiente" Click="siguiente_Click"  Margin="20,0,20,0">Siguiente</Button>
     </StackPanel>
 </Window>
