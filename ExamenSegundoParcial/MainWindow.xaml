@@ -1,0 +1,28 @@
+﻿<Window x:Class="ExamenSegundoParcial.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExamenSegundoParcial"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock FontFamily="arial" FontSize="20" Margin="20,0,20,0">1.Información Personal>2.Contacto>3.Información de Pago</TextBlock>
+    </Grid>
+        <ComboBox Name="seleccion" SelectionChanged="seleccion_SelectionChanged">
+            <ComboBoxItem>Informacion Personal</ComboBoxItem>
+            <ComboBoxItem>Contacto</ComboBoxItem>
+            <ComboBoxItem>Informacion de Pago</ComboBoxItem>
+        </ComboBox>
+        <local:Informacion_Personal x:Name="InfPersonal" Visibility="Collapsed"></local:Informacion_Personal>
+        <local:Contacto x:Name="Cont" Visibility="Collapsed"></local:Contacto>
+        <local:InformacionDePago x:Name="InfP" Visibility="Collapsed"></local:InformacionDePago>
+        <StackPanel Name="PanelConfiguracion">
+        </StackPanel>
+        <Button Name="siguiente" Click="siguiente_Click">Siguiente</Button>
+    </StackPanel>
+</Window>
